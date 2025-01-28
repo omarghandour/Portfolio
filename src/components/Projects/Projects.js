@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 // import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/f.png";
+import editor from "../../Assets/Projects/brave_screenshot_www.blackwaveseg.com.png";
 import chatify from "../../Assets/Projects/hj.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/Screenshot from 2023-12-02 06-29-58.png";
@@ -50,13 +50,19 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="OGTodo"
-              description="OGTodo is more than just an app. It's a lifestyle. It's a way to simplify your life and focus on what matters most. It's a tool to help you become more productive, organized, and happy."
+              title="BlackWaves"
+              description="Led development of a sleek portfolio website for Black Waves, 
+              a software company delivering enterprise solutions. Directed a team to build
+               a responsive MERN.js platform , showcasing their web/mobile apps.
+                Prioritized UX/UI and scalable architecture,
+                 aligning tech execution with business vision.
+
+"
               ghLink="https://github.com/omarghandour/TodolistOG.git"
-              demoLink="https://www.ghandour.fun/"              
+              demoLink="https://www.blackwaveseg.com/"
             />
           </Col>
-{/* 
+          {/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={''}
